@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Задание 4";
+}
+
+
+<div>
+    <form method="post">
+        <p>
+            <label>Введите массив разделённый ",": </label>
+            <input type="text" name="txt" />
+            <button type="submit">Выполнить</button>
+        </p>
+        <p>
+            <label>Сумма квадратов эл: @ViewBag.Square</label><br />
+            <label>Сумма кубов эл: @ViewBag.Cube</label>
+        </p>
+    </form>
+</div>

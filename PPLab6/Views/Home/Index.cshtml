@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Задание 4";
+}
+
+
+@model int
+<h1>Блок 1</h1>
+<form method="post">
+    <input type="number" name="number" placeholder="Enter a number">
+    <button type="submit">Проверить</button>
+</form>
+@if (ViewBag.Result != null)
+{
+    <p>@ViewBag.Result</p>
+}
